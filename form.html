@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <link rel="stylesheet" href="form.css">
+  <title>Purity Home of Fashion</title>
+</head>
+<h1 id="title"> Purity Home of Fashion</h1>
+<p id="description">We style you purely and Elegantly</p>
+<form id="survey-form"> 
+  <fieldset> 
+  <label id="name-label" for="name"> Name</label>
+   <input id="name" class="contact" placeholder="John Doe" type="text" required></input>
+  <label 
+        id="email-label" for="email"> Email  
+  </label>
+  <input id="email"  class="contact" placeholder="johndoe@gmail.com" type="email" pattern="[a-z,0-5]{8,}" required>
+  </input>
+  <label 
+       id="number-label" for="number"> Age
+  </label>
+  <input 
+  id="number"  class="contact" type="number" min="15" max="120" placeholder="18">
+  </input>
+  <select id="dropdown">
+    <option>size</option>
+    <option>small</option>
+    <option>medium</option>
+    <option>large</option> 
+  </select>
+  </fieldset>
+  <fieldset>
+  <label for="fair">
+     <input type="radio" value="fair" id="fair"       name="complexion" class="inline"> Fair 
+     </label>
+<label for="dark">
+  <input type="radio"name="complexion" value="dark" id="dark" class="inline"> Dark
+  </label>
+  <hr>
+<label for="male">
+   <input type="checkbox"name="gender" id="male" value="male" class="inline"> Male
+   </label>
+<label for="female"> <input type="checkbox"name="gender" id="female" value="female" class="inline"> Female</label>
+</fieldset>
+<label for="textarea"></label>
+<textarea id="textarea" name="your-taste" rows="5" cols="50" placeholder="Tell us your clothing preferences"> </textarea>
+<br>
+<input id="submit" type="submit">
+
+  </form>
+  </html>
